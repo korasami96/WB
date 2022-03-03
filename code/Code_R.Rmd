@@ -8,11 +8,18 @@ title: "WBData"
 author: "Samiratou Kora Chabi"
 date: "03/03/2022"
 output:
-  html_document: default
-  word_document: default
-  pdf_document: default
+  rmarkdown::github_document
+
 editor_options: 
   chunk_output_type: inline
+---
+---
+knit: (function(Code_R, UTF-8) {
+  out_dir <- "docs";
+  rmarkdown::render(Code_R,
+ encoding="UTF-8",
+ output_file=Code,output_dir= "C:/Users/Admin/Desktop/essay/WB")})
+ 
 ---
 
 
