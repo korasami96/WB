@@ -8,8 +8,7 @@ title: "WBData"
 author: "Samiratou Kora Chabi"
 date: "03/03/2022"
 output:
-  html_document: default
-
+  rmarkdown::github_document
 
 editor_options: 
   chunk_output_type: inline
