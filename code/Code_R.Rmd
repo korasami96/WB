@@ -28,18 +28,24 @@ knit: (function(Code_R, UTF-8) {
 getwd()
 ```
 
+# Check installed packages
+
+```{r}
+installed.packages(c("styler","lintr","WDI","ggplot2","rmarkdown","reshape2","dplyr","tidyr","knit"))
+```
 # Load packages
 
 ```{r}
+library(knitr)
+library(rmarkdown)
 library(styler)
 library(lintr)
 library(WDI)
 library(ggplot2)
-library(rmarkdown)
 library(reshape2)
 library(dplyr)
 library(tidyr)
-library(knitr) 
+ 
 ```
 
 # Dowload series  for some countries using world bank gender data portal

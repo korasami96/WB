@@ -174,13 +174,21 @@ pre code {
 
 <pre class="r"><code>getwd()</code></pre>
 <pre><code>## [1] &quot;C:/Users/Admin/Desktop/World_Bank&quot;</code></pre>
+<div id="check-installed-packages" class="section level1">
+<h1>Check installed packages</h1>
+<pre class="r"><code>installed.packages(c(&quot;styler&quot;,&quot;lintr&quot;,&quot;WDI&quot;,&quot;ggplot2&quot;,&quot;rmarkdown&quot;,&quot;reshape2&quot;,&quot;dplyr&quot;,&quot;tidyr&quot;,&quot;knit&quot;))</code></pre>
+<pre><code>##      Package LibPath Version Priority Depends Imports LinkingTo Suggests
+##      Enhances License License_is_FOSS License_restricts_use OS_type Archs
+##      MD5sum NeedsCompilation Built</code></pre>
+</div>
 <div id="load-packages" class="section level1">
 <h1>Load packages</h1>
-<pre class="r"><code>library(styler)
+<pre class="r"><code>library(knitr)
+library(rmarkdown)
+library(styler)
 library(lintr)
 library(WDI)
 library(ggplot2)
-library(rmarkdown)
 library(reshape2)
 library(dplyr)</code></pre>
 <pre><code>## 
@@ -197,7 +205,6 @@ library(dplyr)</code></pre>
 <pre><code>## L&#39;objet suivant est masqué depuis &#39;package:reshape2&#39;:
 ## 
 ##     smiths</code></pre>
-<pre class="r"><code>library(knitr) </code></pre>
 </div>
 <div id="dowload-series-for-some-countries-using-world-bank-gender-data-portal" class="section level1">
 <h1>Dowload series for some countries using world bank gender data portal</h1>
