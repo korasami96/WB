@@ -33,6 +33,7 @@ getwd()
 ```{r}
 installed.packages(c("styler","lintr","WDI","ggplot2","rmarkdown","reshape2","dplyr","tidyr","knit"))
 ```
+
 # Load packages
 
 ```{r}
@@ -100,6 +101,7 @@ dat2=WDI(indicator=c('SL.EMP.MPYR.FE.ZS
 ```
 
 # Look at the data
+
 ```{r}
 head(dat)
 ```
