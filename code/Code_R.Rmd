@@ -6,7 +6,6 @@ knitr::opts_knit$set(root.dir = "C:/Users/Admin/Desktop/World_Bank")
 ---
 title: "WBData"
 author: "Samiratou Kora Chabi"
-date: "03/03/2022"
 output:
   html_document: default
 
